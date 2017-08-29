@@ -417,7 +417,7 @@ var resizePizzas = function(size) {
 
   changeSliderLabel(size);
 
- // Iterates through pizza elements on the page and changes their widths
+ // Iterates through pizza elements without looping on the page and changes their widths
   function changePizzaSizes(size) {
     switch(size) {
       case "1":
@@ -435,7 +435,8 @@ var resizePizzas = function(size) {
 
     var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
     var zaSize = randomPizzas.length
-
+    
+// Makes new pizza sizes into percents
     for (var i = 0; i < zaSize; i++) {
       randomPizzas[i].style.width = newWidth + "%";
     }
