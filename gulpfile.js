@@ -1,6 +1,7 @@
 var gulp = require('gulp');
     imagemin = require ('gulp-imagemin');
     minify = require('gulp-minify');
+    cleanCSS = require('gulp-clean-css');
    
 // image compression
 
@@ -18,7 +19,7 @@ gulp.task('image', function() {
 
 // JS compression
 gulp.task('compress', function() {
-    gulp.src('views/js/*')
+    gulp.src('views/js/*.js')
       .pipe(minify({
           ext:{
               src:'-debug.js',
@@ -30,3 +31,9 @@ gulp.task('compress', function() {
       .pipe(gulp.dest('dist'))
   });
 
+  // CSS Minification
+  gulp.task('minify-css', () => {
+    return gulp.src('css/*.css')
+      .pipe(cleanCSS({compatibility: 'ie8'}))
+      .pipe(gulp.dest('dist'));
+  });
