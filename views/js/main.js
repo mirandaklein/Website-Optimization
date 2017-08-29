@@ -436,7 +436,7 @@ var resizePizzas = function(size) {
     var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
     var zaSize = randomPizzas.length;
     
-// Makes new pizza sizes into percents
+// Makes new pizza sizes into percent
     for (var i = 0; i < zaSize; i++) {
       randomPizzas[i].style.width = newWidth + "%";
     }
