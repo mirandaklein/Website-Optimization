@@ -23,6 +23,9 @@ Open the website https://mirandaklein.github.io/Website-Optimization/ in Pagespe
 ### views/js/main.js and pizza.html
 The optimzation of views/pizza.html was accomplised by modifying views/js/main.js until the frame rate reached 60 fps or higher. Comments detailing this are in views/js/main.js
 
+### img and views/images
+Gulp was used to compress images
+
 ## Dependencies
 No dependencies required. Tested on Chrome.
 
