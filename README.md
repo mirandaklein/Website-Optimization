@@ -31,10 +31,12 @@ Gulp was used to compress images
 ##Installation and Usage
 1. Download node from https://nodejs.org/en/
 2. Install gulp globally with terminal
-```sudo npm install --global gulp
+```bash
+sudo npm install --global gulp
 ```
 3. Change to main directory of project in install npm dependencies
-```npm install
+```bash
+npm install
 ```
 This creates node_modules directory with all the plugins in the root of your project.
 4. Create gulpfile.js, call the gulp object, and begin your first task.
