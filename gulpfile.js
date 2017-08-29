@@ -4,8 +4,8 @@ var gulp = require('gulp');
 // image compression
 
 gulp.task('image', function() {
-    gulp.src('build/original/*')
+    gulp.src('img/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('root/images'));
+        .pipe(gulp.dest('compressed'));
 });
 
