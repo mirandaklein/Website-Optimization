@@ -26,9 +26,9 @@ The optimzation of views/pizza.html was accomplised by modifying views/js/main.j
 ### img and views/images
 Gulp was used to compress images
 
-#Gulp
+# Gulp
 
-##Installation and Usage
+## Installation and Usage
 1. Download node from https://nodejs.org/en/
 2. Install gulp globally with terminal
 ```bash
