@@ -530,7 +530,3 @@ document.addEventListener('DOMContentLoaded', function () {
   updatePositions();
 });
 
-rows = window.screen.height
-cols = window.screen.width
-total = rows / s * cols
-
