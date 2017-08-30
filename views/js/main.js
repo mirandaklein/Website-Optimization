@@ -514,8 +514,8 @@ window.addEventListener('scroll', updatePositions);
 
 document.addEventListener('DOMContentLoaded', function () {
   var rows = window.screen.height;
-  var cols = window.screen.width;
-  var s = 230;
+  var cols = 8
+  var s = 256;
   var total = rows / s * cols;
   for (var i = 0; i < total; i++) {
     var elem = document.createElement('img');
