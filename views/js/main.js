@@ -510,6 +510,7 @@ function updatePositions() {
 window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
+// Adjusted sliding pizzas to screen height and width
 
 document.addEventListener('DOMContentLoaded', function () {
   var rows = window.screen.height;

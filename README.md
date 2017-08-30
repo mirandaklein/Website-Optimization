@@ -44,6 +44,9 @@ This creates node_modules directory with all the plugins in the root of your pro
 ## Dependencies
 No dependencies required. Tested on Chrome.
 
+## Updates
+Updated main.js on 8/30/17.
+
 
 
 
