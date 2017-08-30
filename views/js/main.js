@@ -514,7 +514,7 @@ window.addEventListener('scroll', updatePositions);
 
 document.addEventListener('DOMContentLoaded', function () {
   var rows = window.screen.height;
-  var cols = 8
+  var cols = 8;
   var s = 256;
   var total = rows / s * cols;
   for (var i = 0; i < total; i++) {
